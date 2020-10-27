@@ -1,0 +1,18 @@
+@keyframes a {
+    0% {
+        transform: translateX(-1000px);
+        -webkit-transform: translateX(-1000px);
+        -moz-transform: translateX(-1000px);
+        -ms-transform: translateX(-1000px);
+        -o-transform: translateX(-1000px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        opacity: 1;
+    }
+}
